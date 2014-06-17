@@ -91,6 +91,8 @@ set tags=./tags
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
+set backspace=indent,eol,start
+
 if filereadable(".vim.custom")
   source .vim.custom
 endif
